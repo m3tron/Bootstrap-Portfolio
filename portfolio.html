@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home</title>
+    <title>Portfolio</title>
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/custom.css" />
   </head>
   <body>
     <nav
       class="nav"
-      style="background-color: yellow; color: white; font-family: Georgia, 'Times New Roman', Times, serif; max-height: 56px;"
+      style="background-color: yellow; color: white; font-family: Georgia, 'Times New Roman', Times, serif; max-height: 56px; margin-bottom: 80px;"
     >
       <h1
         class="name"
@@ -23,16 +24,61 @@
       >
         Pineapple Man
       </h1>
-      <a class="nav-link ml-auto" href="index.html"
-        ><img src="/images/icon.png" alt="" />About</a
+      <a
+        class="nav-link ml-auto .align-text-bottom"
+        style="color: orangered;"
+        href="index.html"
+        ><img src="assets/images/icon.png" alt="" />About</a
       >
-      <a class="nav-link" href="portfolio.html"
-        ><img src="/images/icon.png" alt="" />Portfolio</a
+      <a class="nav-link" style="color: orangered;" href="portfolio.html"
+        ><img src="assets/images/icon.png" alt="" />Portfolio</a
       >
-      <a class="nav-link" href="contact.html"
-        ><img src="/images/icon.png" alt="" />Contact</a
+      <a class="nav-link" style="color: orangered;" href="contact.html"
+        ><img src="assets/images/icon.png" alt="" />Contact</a
       >
     </nav>
-    <div class="container"></div>
+    <div class="container" style="background-color: yellow;">
+      <h3>Portfolio</h3>
+      <hr />
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img
+            class="img-thumbnail mx-auto d-block m-3"
+            src="assets/images/portfolioPics/pexels-photo-1071875.jpeg"
+            style="width: 280px; height: 200px;"
+          />
+          <img
+            class="img-thumbnail mx-auto d-block m-3"
+            src="assets/images/portfolioPics/pexels-photo-1071878.jpeg"
+            style="width: 280px; height: 200px;"
+          />
+        </div>
+        <div class="col-12 col-md-6">
+          <img
+            class="img-thumbnail m-3 mx-auto d-block"
+            src="assets/images/portfolioPics/pexels-photo-185343.jpeg"
+            style="width: 280px; height: 200px;"
+          />
+          <img
+            class="img-thumbnail m-3 mx-auto d-block"
+            src="assets/images/portfolioPics/pexels-photo-348523.jpeg"
+            style="width: 280px; height: 200px;"
+          />
+        </div>
+        <div class="col-12">
+          <img
+            class="img-thumbnail m-3 mx-auto d-block"
+            src="assets/images/portfolioPics/pexels-photo-437805.jpeg"
+            style="width: 280px; height: 200px;"
+          />
+        </div>
+      </div>
+    </div>
   </body>
+  <footer
+    class="container-fluid text-center fixed-bottom"
+    style="background-color: orangered; color: white;"
+  >
+    Enjoy life. Eat a Pineapple!
+  </footer>
 </html>
